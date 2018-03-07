@@ -27,6 +27,12 @@ And to verify:
 pqs.exe -key mykey.pub somefile1 somefile2...
 ```
 
+You can verify the source code with my key:
+
+``
+pqs.exe -key dis.pub pqs.go`
+``
+
 You have to distribute only the .pub file once, and then whoever has it can
 verify that a file is yours if it is accompanied with .pqsig.
 
